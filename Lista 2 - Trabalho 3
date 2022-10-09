@@ -1,0 +1,19 @@
+x = []
+y = []
+
+for i in range(1,6):
+    anos = int(input('Digite Sua idade:'))
+    altura = float(input('Qual a sua altura ? '))
+    x.append(anos)
+    y.append(altura)
+    
+print('Alturas:')   
+print(y[::-1])
+print('Idades:')
+print(x[::-1])
+
+print('Ordem Correta:')
+print('Alturas:')   
+print(y)
+print('Idades:')
+print(x)
