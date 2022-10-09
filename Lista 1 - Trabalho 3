@@ -1,0 +1,12 @@
+qnt = int(input("Tamanho em metros quadrados que deseja pintar: "))
+litros = qnt / 3
+
+if qnt % 54:
+    latas = qnt / 54
+
+else:
+    latas = int(qnt / 54) + 1
+
+preço = latas * 80
+print ("Você precisa de %.1f latas" %latas)
+print("O valor fica R$%.2f" %preço)
