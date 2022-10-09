@@ -1,0 +1,14 @@
+sal = float(input("Quanto você ganha por hora?\n -> "))
+hr = int(input("Quantas horas você trabalha?\n -> "))
+
+bruto = sal*hr*30 
+ir = bruto * 11/100
+inss = bruto * 8/100
+sindicato = bruto * 5/100
+liquido = bruto - ir - inss - sindicato
+
+print(f"Seu salário bruto é: {bruto}")
+print(f"Você paga {ir} ao Imposto de Renda")
+print(f"Você paga {inss} ao INSS") 
+print(f"Você paga {sindicato} ao Sindicato")
+print(f"Seu salário final é: {liquido}")
