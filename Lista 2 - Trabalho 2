@@ -1,6 +1,0 @@
-number = float(input('Digite Um Número:'))
-
-if (number%1) == 0:
-    print(f'O número {number} é inteiro')
-else:
-    print(f'O número {number} é decimal')
